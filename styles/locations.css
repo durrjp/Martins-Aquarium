@@ -1,0 +1,39 @@
+.locationpage {
+    display: flex;
+    flex-direction: column;
+}
+.locationpage__header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 5em;
+    font-family: 'Caveat', cursive;
+}
+
+.location__quotes {
+
+
+}
+.location__locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5em;
+}
+.location {
+    margin: .5em;
+    background-color: rgb(59, 181, 197, .7);
+    box-shadow: 0 4px 8px 0 #111111;
+    border-radius: 5%;    
+    text-align: center;
+    padding: 3em;
+}
+.location__header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+    font-family: 'Caveat', cursive;
+    margin-top
+}
+.location__detail {
+
+}

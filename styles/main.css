@@ -2,6 +2,7 @@
 @import "/styles/fishlist.css";
 @import "/styles/footer.css";
 @import "/styles/header.css";
+@import "/styles/locations.css";
 
 body {
     display:flex;
@@ -16,7 +17,7 @@ body {
     position: relative;
     overflow: auto;
 }
-a.link {
+a:link {
     color:black;
 }
 a:visited {

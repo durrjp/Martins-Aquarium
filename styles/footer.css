@@ -4,13 +4,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-shrink: 0;
     font-size: 1.2em;
     
 }
 .footeritem {
     padding: .5em;
     margin-top: .9em;
+    margin-bottom:.2em;
 }
 .footerheader {
     font-weight: bold;
