@@ -1,7 +1,17 @@
 .footer {
-    background-color: rgb(113, 213, 247) ;
+    background-color: rgb(59, 181, 197, .9) ;
     height: 4em;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     flex-shrink: 0;
+    font-size: 1.2em;
+    
+}
+.footeritem {
+    padding: .5em;
+    margin-top: .9em;
+}
+.footerheader {
+    font-weight: bold;
 }

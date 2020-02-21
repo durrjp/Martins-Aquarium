@@ -22,6 +22,9 @@ a.link {
 a:visited {
     color:black
 }
+a:hover {
+    color: rgb(214, 26, 19);
+}
 img {
     display: block;
     margin-left: auto;
