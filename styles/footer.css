@@ -1,0 +1,7 @@
+.footer {
+    background-color: rgb(113, 213, 247) ;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+}
