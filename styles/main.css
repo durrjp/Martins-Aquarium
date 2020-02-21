@@ -9,7 +9,7 @@ body {
     margin: 0;
     flex-direction: column;
     height: 100%;
-    background-color: darkblue;
+    background-image: url(/images/ocean.png);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     position: relative;
@@ -23,7 +23,6 @@ body {
     max-height: 8vh;
     font-weight: 900;
     padding: 10px;
-    background-color: rgb(113, 213, 247);
    
 }
 a.link {
