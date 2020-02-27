@@ -8,11 +8,6 @@
     font-size: 5em;
     font-family: 'Caveat', cursive;
 }
-
-.location__quotes {
-
-
-}
 .location__locations {
     display: flex;
     flex-wrap: wrap;
@@ -35,5 +30,8 @@
     margin-top
 }
 .location__detail {
-
+    text-align: left;
+}
+.bold {
+    font-weight: bolder;
 }
