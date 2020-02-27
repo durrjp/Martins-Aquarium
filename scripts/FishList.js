@@ -2,18 +2,14 @@ import { useFish } from "./fishDataProvider.js"
 import Fish from "./fish.js"
 
 
-/**
- *  FishList which renders individual fish objects as HTML
- */
-
-// Import `useFish` from the data provider module
 
 const FishList = () => {
 
-    // Get a reference to the `<article class="content">` element
     const contentElement = document.querySelector(".index__fishlist")
+    //get fish data from frishdataprovider
     const fishes = useFish()
 
+        //iterate the array
     for (const fishObject of fishes) {
         contentElement.innerHTML += Fish(fishObject)
     }
