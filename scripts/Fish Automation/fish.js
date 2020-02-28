@@ -6,9 +6,9 @@ const Fish = (fish) => {
     <section class="index__fish">
             <p class="index__fishname">${fish.name}</p>
             <img width = "200px" src="${fish.image}" class="fishImg">
-            <div>
-                <button id="button--${fish.name}" class="detailsButton">About Me</button>
-            </div>
+            
+            <button id="button--${fish.name}" class="detailsButton">About Me</button>
+            
         
             <dialog class="dialog--fish" id="details--${fish.name}">
                 <div class="aboutHeader">About ${fish.name}:</div>
